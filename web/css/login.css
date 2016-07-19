@@ -1,0 +1,68 @@
+@font-face {
+    font-family: YanoneKaffeesatzBold;
+    font-weight: bold;
+    src: url("YanoneKaffeesatz-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: YanoneKaffeesatzRegular;
+    font-weight: regular;
+    src: url("YanoneKaffeesatz-Regular.otf") format("opentype");
+}
+html {
+    height: 100%;
+    background: white;
+}
+body{
+    width: 643px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    font-family:'YanoneKaffeesatzRegular' !important;
+    /*background-image: url("../img/login/4.png");
+    background-repeat: no-repeat;*/
+}
+body .logo
+{
+    width: 208px;
+    height: 139px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/login/1.png");
+    background-repeat: no-repeat;
+}
+body .block_login
+{
+    width: 643px;
+    height: 220px;
+    background: #EDEDED;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 5px;*/
+}
+
+.contain-sm-login {
+  max-width: 100%;
+  height: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo
+{
+    font-family: "YanoneKaffeesatzRegular";
+    font-size: 20px;
+}
+
+.letra
+{
+    font-family: "YanoneKaffeesatzRegular";
+    font-size: 16px;
+}
+
+.alert-danger
+{
+    font-size: 14px;
+}

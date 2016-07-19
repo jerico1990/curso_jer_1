@@ -1,0 +1,109 @@
+@font-face {
+    font-family: YanoneKaffeesatzBold;
+    font-weight: bold;
+    src: url("YanoneKaffeesatz-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: YanoneKaffeesatzRegular;
+    font-weight: regular;
+    src: url("YanoneKaffeesatz-Regular.otf") format("opentype");
+}
+body 
+{
+    font-family:'YanoneKaffeesatzRegular';
+}
+.medio
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.cabecera
+{
+    height: 185px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/registrar/cabecera.jpg") !important;
+    background-repeat: no-repeat;
+}
+.pie
+{
+    
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    background-image: url("../img/pie.jpg") !important;
+    background-repeat: no-repeat;
+    
+}
+.img_informacion
+{
+    height: 590px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/informacion/pasos.jpg") !important;
+    background-size: 581px;
+    background-repeat: no-repeat;
+}
+.subtitulos
+{
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, #207cca -1%,#207cca -1%,#207cca 0%,#207cca 0%,#1e5799 0%,#207cca 0%,#207cca 0%,#207cca 0%,#207cca 0%,#207cca 1%,#207cca 1%,#2989d8 27%,#ffffff 100%);
+    color: white;
+}
+.subtitulos a
+{
+    line-height: 20px !important;
+}
+.boton
+{
+    background: #2482D1;
+    color: white !important;
+    border-radius:10px 10px 10px 10px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.boton_cargar
+{
+    background: #E7E7E7;
+    color: #9C9C9C !important;
+    border-radius:10px 10px 10px 10px;
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.letras
+{
+    color:#8C8C8C;
+}
+table .check
+{
+    width: 21px;
+    background-repeat: no-repeat;
+    content:url("../img/documento/check.png") !important;
+}
+
+table .warning
+{
+    width: 21px;
+    background-repeat: no-repeat;
+    content:url("../img/documento/warning.png") !important;
+}
+
+.boton_gracias
+{
+    background: #DA2216;
+    color: white !important;
+    border-radius:10px 10px 10px 10px;
+}
+
+.alert-danger
+{
+    font-size: 15px;
+}
